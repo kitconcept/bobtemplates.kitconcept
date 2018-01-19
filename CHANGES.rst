@@ -4,8 +4,12 @@ Changelog
 2.0.0 (unreleased)
 ------------------
 
+- Switch RobotFramework tests to use Chrome browser.
+  [timo]
+
 - Remove recommended extra from p.r.codeanalysis.
   [timo]
+
 
 1.0.4 (2016-07-23)
 ------------------

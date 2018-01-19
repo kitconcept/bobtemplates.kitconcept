@@ -28,7 +28,7 @@ Resource  plone/app/robotframework/keywords.robot
 
 Library  Remote  ${PLONE_URL}/RobotRemote
 
-Test Setup  Open test browser
+Test Setup  Open chrome browser
 Test Teardown  Close all browsers
 
 
@@ -49,6 +49,17 @@ Scenario: As a site administrator I can view a {{{ package.dexterity_type_name }
 
 
 *** Keywords *****************************************************************
+
+# --- Setup ------------------------------------------------------------------
+
+Open chrome browser
+  ${options}=  Evaluate  sys.modules['selenium.webdriver'].ChromeOptions()  sys, selenium.webdriver
+  Call Method  ${options}  add_argument  disable-extensions
+  Call Method  ${options}  add_argument  disable-web-security
+  Call Method  ${options}  add_argument  window-size\=1280,1024
+  # Call Method  ${options}  add_argument  remote-debugging-port\=9223
+  Create WebDriver  Chrome  chrome_options=${options}  desired_capabilities=${dc}
+
 
 # --- Given ------------------------------------------------------------------
 
@@ -85,4 +96,3 @@ a {{{ package.dexterity_type_name_lower }}} with the title '${title}' has been c
 I can see the {{{ package.dexterity_type_name_lower }}} title '${title}'
   Wait until page contains  Site Map
   Page should contain  ${title}
-
