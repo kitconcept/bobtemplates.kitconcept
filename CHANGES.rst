@@ -4,6 +4,12 @@ Changelog
 2.0.0 (unreleased)
 ------------------
 
+- Nothing changed yet.
+
+
+2.0.0 (unreleased)
+------------------
+
 - Switch RobotFramework tests to use Chrome browser.
   [timo]
 
