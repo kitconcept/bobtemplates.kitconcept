@@ -5,7 +5,16 @@ cache:
   pip: true
   directories:
     - $HOME/buildout-cache
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
 before_install:
+  - wget "http://chromedriver.storage.googleapis.com/2.35/chromedriver_linux64.zip"
+  - unzip chromedriver_linux64.zip
+  - sudo mv chromedriver /usr/local/bin
   - mkdir -p $HOME/buildout-cache/{eggs,downloads}
   - mkdir $HOME/.buildout
   - echo "[buildout]" > $HOME/.buildout/default.cfg
@@ -22,9 +31,9 @@ env:
     - PLONE_VERSION=4.3.10 PACKAGE_TYPE=Basic
     - PLONE_VERSION=4.3.10 PACKAGE_TYPE=Dexterity
     - PLONE_VERSION=4.3.10 PACKAGE_TYPE=Theme
-    - PLONE_VERSION=5.0.5 PACKAGE_TYPE=Basic
-    - PLONE_VERSION=5.0.5 PACKAGE_TYPE=Dexterity
-    - PLONE_VERSION=5.0.5 PACKAGE_TYPE=Theme
+    - PLONE_VERSION=5.0.8 PACKAGE_TYPE=Basic
+    - PLONE_VERSION=5.0.8 PACKAGE_TYPE=Dexterity
+    - PLONE_VERSION=5.0.8 PACKAGE_TYPE=Theme
 
 install:
   - pip install docutils

@@ -4,6 +4,9 @@ Changelog
 2.0.0 (unreleased)
 ------------------
 
+- Upgrade to Plone 5.0.8.
+  [timo]
+
 - Switch RobotFramework tests to use Chrome browser.
   [timo]
 
