@@ -58,7 +58,7 @@ Open chrome browser
   Call Method  ${options}  add_argument  disable-web-security
   Call Method  ${options}  add_argument  window-size\=1280,1024
   # Call Method  ${options}  add_argument  remote-debugging-port\=9223
-  Create WebDriver  Chrome  chrome_options=${options}  desired_capabilities=${dc}
+  Create WebDriver  Chrome  chrome_options=${options}
 
 
 # --- Given ------------------------------------------------------------------
