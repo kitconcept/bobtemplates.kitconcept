@@ -18,6 +18,8 @@ var/
 # files
 lib64
 pip-selfcheck.json
+.installed.cfg
+share/
 # excludes
 !.coveragerc
 !.editorconfig
