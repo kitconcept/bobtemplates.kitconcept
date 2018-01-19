@@ -143,7 +143,6 @@ Contribute
 
 - Issue Tracker: https://github.com/plone/bobtemplates.kitconcept/issues
 - Source Code: https://github.com/plone/bobtemplates.kitconcept
-- Documentation: http://docs.plone.org/develop/addons/bobtemplates.kitconcept
 
 
 Support
