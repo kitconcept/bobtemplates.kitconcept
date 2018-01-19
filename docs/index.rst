@@ -1,13 +1,13 @@
 Introduction
 ============
 
-``bobtemplates.plone`` provides a `mr.bob <http://mrbob.readthedocs.org/en/latest/>`_ template to generate packages for Plone projects.
+``bobtemplates.kitconcept`` provides a `mr.bob <http://mrbob.readthedocs.org/en/latest/>`_ template to generate packages for Plone projects.
 
 To create a package like ``collective.myaddon``
 
 .. code-block:: shell
 
-    pip install bobtemplates.plone
+    pip install bobtemplates.kitconcept
     mrbob -O collective.myaddon bobtemplates:plone_addon
 
 You can also create a package with nested namespace
@@ -44,7 +44,7 @@ Plone version [4.3.9]
 Features
 --------
 
-Package created with ``bobtemplates.plone`` use the current best-practices when creating an add-on.
+Package created with ``bobtemplates.kitconcept`` use the current best-practices when creating an add-on.
 
 Buildout
     The package is contained in a buildout that allows you to build Plone with the new package installed for testing-purposes.
@@ -76,7 +76,7 @@ Theme
 Compatibility
 -------------
 
-Add-ons created with ``bobtemplates.plone`` are tested to work in Plone 4.3.x and Plone 5.
+Add-ons created with ``bobtemplates.kitconcept`` are tested to work in Plone 4.3.x and Plone 5.
 They should also work with older versions but that was not tested.
 It should work on Linux, Mac and Windows.
 
@@ -96,7 +96,7 @@ Use in a buildout
     recipe = zc.recipe.egg
     eggs =
         mr.bob
-        bobtemplates.plone
+        bobtemplates.kitconcept
 
 
 This creates a mrbob-executable in your bin-directory.
@@ -110,13 +110,13 @@ Call it from the ``src``-directory of your Plone project like this.
 Installation in a virtualenv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also install ``bobtemplates.plone`` in a virtualenv.
+You can also install ``bobtemplates.kitconcept`` in a virtualenv.
 
 .. code-block:: shell
 
-    pip install bobtemplates.plone
+    pip install bobtemplates.kitconcept
 
-With ``pip 6.0`` or newer ``mr.bob`` will automatically be installed as a dependency. If you still use a older version of pip you need install ``mr.bob`` before ``bobtemplates.plone``.
+With ``pip 6.0`` or newer ``mr.bob`` will automatically be installed as a dependency. If you still use a older version of pip you need install ``mr.bob`` before ``bobtemplates.kitconcept``.
 
 .. code-block:: shell
 
@@ -129,4 +129,3 @@ Now you can use it like this
     mrbob -O collective.foo bobtemplates:plone_addon
 
 See `mr.bob <http://mrbob.readthedocs.org/en/latest/>`_ documentation for further information.
-

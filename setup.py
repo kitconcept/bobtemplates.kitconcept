@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 
 setup(
-    name='bobtemplates.plone',
+    name='bobtemplates.kitconcept',
     version=version,
     description="Templates for Plone projects.",
     long_description=long_description,
@@ -32,7 +32,7 @@ setup(
     keywords='web plone zope skeleton project',
     author='Plone Foundation',
     author_email='plone-developers@lists.sourceforge.net',
-    url='https://github.com/plone/bobtemplates.plone',
+    url='https://github.com/plone/bobtemplates.kitconcept',
     license='GPL version 2',
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,

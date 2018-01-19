@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Render bobtemplates.plone hooks.
+"""Render bobtemplates.kitconcept hooks.
 """
 from datetime import date
 from mrbob.bobexceptions import SkipQuestion
