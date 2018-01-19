@@ -42,7 +42,7 @@ Design Goals
 Concrete Decisions
 
 - Do not use local commands. They significantly increase complexity and mr.bob has no support for them anyways. We tried this with ZopeSkel/Templer and it did not work out that well.
-Limit the overall number of questions to not confuse people too much. Having separate packages or providing commented out code sections might be a good alternative.
+- Limit the overall number of questions to not confuse people too much. Having separate packages or providing commented out code sections might be a good alternative.
 - Fix problems in Plone itself rather than providing workarounds in our templates. (see #27)
 - Provide skeletons for the most important Plone package use cases, not for every possible scenario:
 Add-on product (collective, plone, custom project, policy product)
