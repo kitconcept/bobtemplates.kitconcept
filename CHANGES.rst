@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.0.0 (unreleased)
+------------------
+
+- Remove recommended extra from p.r.codeanalysis.
+  [timo]
+
 1.0.4 (2016-07-23)
 ------------------
 
