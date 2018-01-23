@@ -6,10 +6,6 @@
     :target: https://coveralls.io/github/kitconcept/bobtemplates.kitconcept?branch=master
     :alt: Coveralls
 
-.. image:: https://img.shields.io/pypi/dm/bobtemplates.kitconcept.svg
-    :target: https://pypi.python.org/pypi/bobtemplates.kitconcept/
-    :alt: Downloads
-
 .. image:: https://img.shields.io/pypi/v/bobtemplates.kitconcept.svg
     :target: https://pypi.python.org/pypi/bobtemplates.kitconcept/
     :alt: Latest Version
