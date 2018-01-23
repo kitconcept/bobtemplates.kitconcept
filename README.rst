@@ -85,13 +85,6 @@ They should also work with older versions but that was not tested.
 It should work on Linux, Mac and Windows.
 
 
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder.
-
-It is also available online at http://docs.plone.org/develop/addons/bobtemplates.kitconcept/bobtemplates.kitconcept/README.html
-
 Installation
 ------------
 
