@@ -4,6 +4,9 @@ Changelog
 2.0.0 (unreleased)
 ------------------
 
+- Add Plone 5.1 support.
+  [timo]
+
 - Upgrade to Plone 4.3.15.
   [timo]
 
