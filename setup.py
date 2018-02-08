@@ -35,6 +35,7 @@ setup(
     url='https://github.com/kitconcept/bobtemplates.kitconcept',
     license='GPL version 2',
     packages=find_packages(exclude=['ez_setup']),
+    namespace_packages=['bobtemplates'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
