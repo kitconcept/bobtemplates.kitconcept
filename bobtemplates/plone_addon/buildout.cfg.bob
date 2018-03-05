@@ -64,8 +64,8 @@ eggs = i18ndude
 {{{ package.dottedname }}} =
 
 # setuptools / buildout
-setuptools = 38.4.0
-zc.buildout = 2.10.0
+setuptools =
+zc.buildout =
 zc.recipe.egg = 2.0.3
 
 # code analysis
