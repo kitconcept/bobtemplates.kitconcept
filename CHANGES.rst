@@ -4,6 +4,9 @@ Changelog
 2.0.2 (unreleased)
 ------------------
 
+- Upgrade to Plone 5.1 final.
+  [timo]
+
 - Follow best practice for bootstrap by using requirements.txt and virtualenv.
   [timo]
 
