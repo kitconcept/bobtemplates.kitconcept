@@ -4,8 +4,11 @@ Changelog
 2.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Follow best practice for bootstrap by using requirements.txt and virtualenv.
+  [timo]
 
+- Fix travis.cfg to follow best practices. Just extend buildout.cfg and run code-analysis with return code and no pre-commit hook.
+  [timo]
 
 2.0.1 (2018-02-08)
 ------------------
