@@ -4,6 +4,9 @@ Changelog
 2.0.2 (unreleased)
 ------------------
 
+- Switch from bootstrap.py to using pip to install setuptools and buildout.
+  [timo]
+
 - Upgrade to Plone 5.1 final.
   [timo]
 
