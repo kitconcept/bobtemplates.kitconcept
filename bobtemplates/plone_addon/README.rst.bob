@@ -6,6 +6,27 @@
 {{{ package.dottedname }}}
 ==============================================================================
 
+.. image:: https://travis-ci.org/kitconcept/{{{ package.dottedname }}}.svg?branch=master
+    :target: https://travis-ci.org/kitconcept/{{{ package.dottedname }}}
+
+.. image:: https://img.shields.io/pypi/status/{{{ package.dottedname }}}.svg
+    :target: https://pypi.python.org/pypi/{{{ package.dottedname }}}/
+    :alt: Egg Status
+
+.. image:: https://img.shields.io/pypi/v/{{{ package.dottedname }}}.svg
+    :target: https://pypi.python.org/pypi/{{{ package.dottedname }}}
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/l/{{{ package.dottedname }}}.svg
+    :target: https://pypi.python.org/pypi/{{{ package.dottedname }}}
+    :alt: License
+
+|
+
+.. image:: https://raw.githubusercontent.com/kitconcept/{{{ package.dottedname }}}/master/kitconcept.png
+   :alt: kitconcept
+   :target: https://kitconcept.com/
+
 Tell me what your product does
 
 Features

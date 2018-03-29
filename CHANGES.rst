@@ -4,6 +4,9 @@ Changelog
 2.0.2 (unreleased)
 ------------------
 
+- Add Travis badges and kitconcept logo to README.
+  [timo]
+
 - Upgrade to Plone 5.1 final.
   [timo]
 
