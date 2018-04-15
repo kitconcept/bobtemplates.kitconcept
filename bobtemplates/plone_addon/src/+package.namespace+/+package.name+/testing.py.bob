@@ -44,7 +44,7 @@ class {{{ package.browserlayer }}}(PloneSandboxLayer):
 
 
 {{{package.uppercasename}}}_FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=({{{package.uppercasename}}}_FIXTURE,),
+    bases=({{{package.uppercasename}}}_FIXTURE, z2.ZSERVER_FIXTURE),
     name='{{{ package.browserlayer }}}:FunctionalTesting'
 )
 
