@@ -98,3 +98,5 @@ robotframework-selenium2library = 1.7.4
 robotsuite = 1.7.0
 selenium = 2.53.1
 plone.testing = 5.0.0
+# https://community.plone.org/t/typeerror-version-object-has-no-attribute-getitem/6187/4
+plone.recipe.zope2instance = 4.4.0
