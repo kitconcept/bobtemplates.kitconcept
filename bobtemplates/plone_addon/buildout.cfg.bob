@@ -37,7 +37,7 @@ eggs = ${instance:eggs}
 
 
 [test]
-recipe = zc.recipe.testrunner
+recipe = collective.xmltestreport
 eggs = ${instance:eggs}
 defaults = ['-s', '{{{ package.dottedname }}}', '--auto-color', '--auto-progress']
 

@@ -1,8 +1,5 @@
 SHELL := /bin/bash
 CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-ROLE_DIR=roles
-EXTERNAL_ROLES_DIR=roles/external
-INVENTORY_FILE=hosts
 
 
 # We like colors
@@ -37,4 +34,4 @@ clean: ## Remove old Virtualenv and creates a new one
 .PHONY: test
 test: ## Run Tests
 	@echo "$(GREEN)==> Run Tests$(RESET)"
-	bin/test
+	bin/test --xml
