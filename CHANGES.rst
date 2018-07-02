@@ -4,6 +4,9 @@ Changelog
 2.0.2 (unreleased)
 ------------------
 
+- Use pypi.org/simple as buildout index.
+  [timo]
+
 - Add Travis badges and kitconcept logo to README.
   [timo]
 
