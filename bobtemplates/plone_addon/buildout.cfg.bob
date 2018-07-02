@@ -100,3 +100,5 @@ selenium = 2.53.1
 plone.testing = 5.0.0
 # https://community.plone.org/t/typeerror-version-object-has-no-attribute-getitem/6187/4
 plone.recipe.zope2instance = 4.4.0
+# https://community.plone.org/t/plone-protect-syntaxerror-unqualified-exec-is-not-allowed-in-function-call-it-contains-a-nested-function-with-free-variables/6502/2
+plone.protect = 3.1.2
