@@ -40,6 +40,7 @@ eggs = ${instance:eggs}
 recipe = collective.xmltestreport
 eggs = ${instance:eggs}
 defaults = ['-s', '{{{ package.dottedname }}}', '--auto-color', '--auto-progress']
+environment = environment
 
 
 [robot]
@@ -57,6 +58,10 @@ eggs = zest.releaser
 [i18ndude]
 recipe = zc.recipe.egg
 eggs = i18ndude
+
+
+[environment]
+ROBOT_SELENIUM2LIBRARY_RUN_ON_FAILURE = Capture page screenshot and log source
 
 
 [versions]
