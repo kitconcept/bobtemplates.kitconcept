@@ -9,7 +9,7 @@ from plone import api
 from {{{ package.dottedname }}}.testing import {{{package.uppercasename}}}_INTEGRATION_TESTING  # noqa
 from {{{ package.dottedname }}}.interfaces import I{{{ package.dexterity_type_name }}}
 
-import unittest2 as unittest
+import unittest
 
 
 class {{{ package.dexterity_type_name }}}IntegrationTest(unittest.TestCase):
